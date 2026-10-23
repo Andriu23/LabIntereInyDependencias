@@ -6,7 +6,7 @@ public class TestAnalisis {
 //        bebida1.apagarTodo();
 //        System.out.println("El preparador esta amarrado a cafetera y licuadora");
 
-        PreparadorBebidas bebida1 = new PreparadorBebidas(new Cafetera(), new Cafetera());
+        PreparadorBebidas bebida1 = new PreparadorBebidas(new Exprimidor(), new MaquinaTe());
         bebida1.prepararDesayuno();
         bebida1.apagarTodo();
 
